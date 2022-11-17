@@ -1,0 +1,107 @@
+[
+  {
+    "grouping": "Expertise",
+    "skills": [
+      "Content Provider",
+      "Customer Care Specialist",
+      "Conflict Management and Resolution",
+      "Subject Matter Expert",
+      "Analytical",
+      "Intellectual Property Expert"
+    ]
+  },
+  {
+    "grouping": "Languages and translations",
+    "skills": [
+      "English",
+      "Filipino",
+      "Baybayin-Tagalog"
+    ]
+  },
+  {
+    "grouping": "Operating Systems",
+    "skills": [
+      "Linux",
+      "Android",
+      "Chrome OS",
+      "iOS",
+      "Windows"
+    ]
+  },
+  {
+    "grouping": "CRM",
+    "skills": [
+      "Salesforce",
+      "Oracle"
+    ]
+  },
+  {
+    "grouping": "CMS & SSG",
+    "skills": [
+      {
+        "name": "Hugo",
+        "link": "https://gohugo.io"
+      },
+      {
+        "name": "Grav",
+        "link": "https://getgrav.org"
+      },
+      {
+        "name": "Naver Blog",
+        "link": "https://blog.naver.com"
+      },
+      "b2evolution",
+      "Blogspot",
+      "Wordpress",
+      "Tumblr"
+    ]
+  },
+  {
+    "grouping": "BBS/Forums",
+    "skills": [
+      {
+        "name": "Vanilla Forums",
+        "link": "https://vanillaforums.com"
+      },
+      {
+        "name": "Simple Machines Forums",
+        "link": "https://simplemachines.org"
+      },
+      "Invision Power Board"
+    ]
+  },
+  {
+    "grouping": "Programming & Web Development",
+    "skills": [
+      {
+        "name": "Schema.org",
+        "link": "https://schema.org"
+      },
+      "JSON-LD",
+      "RDFa",
+      "Git",
+      "Lua",
+      "HTML",
+      "CSS",
+      "Bzr"
+    ]
+  },
+  {
+    "grouping": "Others",
+    "skills": [
+      {
+        "name": "Hubzilla",
+        "link": "https://hubzilla.org"
+      },
+      {
+        "name": "Friendica",
+        "link": "https://friendi.ca"
+      },
+      "NGINX",
+      "Cloudflare",
+      "Google Office suite",
+      "LibreOffice",
+      "Microsoft Office"
+    ]
+  }
+]

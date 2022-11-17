@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Customer Service Training: Business Friendly Customer Service",
+    "description": "Certificate of Completion",
+    "badge": "img/achievements/service-skills-01.jpg",
+    "proof": ""
+  },
+  {
+    "name": "Customer Service Training: Maintaining Customer Relationships",
+    "description": "Certificate of Completion",
+    "badge": "img/achievements/service-skills-02.jpg",
+    "proof": ""
+  },
+  {
+    "name": "Customer Service Training: Listening Skills",
+    "description": "Certificate of Completion",
+    "badge": "img/achievements/service-skills-03.jpg",
+    "proof": ""
+  }
+]

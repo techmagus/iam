@@ -1,0 +1,109 @@
+[
+  {
+    "role": "Self-employed",
+    "company": "Yelosan Publishing",
+    "link": "https://yelosan.youronly.one",
+    "summary": "I provide various publishing related services like ghostwriting, research, website development, press release copy, and translation of materials to the Baybayin-Tagalog script.",
+    "range": "2020–Present"
+  },
+  {
+    "role": "Writer, Webmaster, and Community Management",
+    "company": "Personal",
+    "summary": "I blog about technology, web development, and write reviews about topics I am interested. I launched my first website in 1998 and set up my first BBS in 1997.",
+    "range": "1997–Present"
+  },
+  {
+    "role": "Wiki Administrator, Wiki Guardian",
+    "company": "Curse",
+    "summary": "I managed various Curse Wikis; contributed content; and set up the guidelines for each gaming community I was handling.",
+    "range": "2014–2020"
+  },
+  {
+    "role": "Customer Care",
+    "company": "SPi Global",
+    "summary": "We handled Copyright license requests and technical troubleshooting for researchers, professionals, and students through email, chat, and calls (inbound and outbound).",
+    "range": "2017",
+    "client": ["Copyright Clearance Center (Copyright.com)"],
+    "product": ["Copyright licenses"]
+  },
+  {
+    "role": "Customer and Game Support",
+    "company": "Elite Global Sourcing",
+    "summary": "Uptime monitoring of multiple online and mobile games; gathering of community feedback; and responding to customer inquiries through email and social media channels.",
+    "range": "2016–2017",
+    "client": ["WebZen (KO)"],
+    "product": ["Mu Origin", "Mu Online Global", "ELOA", "Shot Online"]
+  },
+  {
+    "role": "Subject Matter Expert",
+    "company": "Telus International Philippines",
+    "summary": "I assisted my peers in providing the correct resolution to customer inquiries; and developed our local knowledge base. I also addressed customer issues through email and chat, from game related inquiries to purchases, for multiple products.",
+    "range": "2013–2015",
+    "client": ["Zynga", "Perfect World Entertainment (NA)", "Cryptic Studios"],
+    "product": ["Facebook and mobile games", "Star Trek Online", "Jade Dynasty", "Swordsman"]
+  },
+  {
+    "role": "Webmaster and Content Contributor",
+    "company": "Asia's Perfect 10",
+    "summary": "Developed the first website of Asia's Perfect 10, an ASEAN Citizen blog promoting cooperation and cultural exchange between ASEAN peoples.",
+    "range": "2007–2014"
+  },
+  {
+    "role": "Program Committee",
+    "company": "JESUS CHRIST To God Be The Glory Church International",
+    "summary": "Member of the church's program committee.",
+    "range": "2013"
+  },
+  {
+    "role": "Customer Support and Community Forums Moderator",
+    "company": "netGames (Level-Up Games BPO)",
+    "summary": "It was our job to ensure the community forums are clean and civil for various games. We also investigated hack and cheating reports thoroughly, with solid documentation to justify an account's permanent ban. Uptime monitoring of multiple games and catching bots and spammers, were also part of our daily tasks.",
+    "range": "2010–2013",
+    "client": ["Nexon (NA)"],
+    "product": ["Combat Arms", "Mabinogi", "Vindictus (Mabinogi Heroes)", "MapleStory", "Atlantica Online"]
+  },
+  {
+    "role": "Website and Social Media Administrator; Content Developer",
+    "company": "JESUS CHRIST To God Be The Glory Church International",
+    "summary": "Deployed the first website of To God Be The Glory Church International, and managed the church's social media accounts. I was also a member of the 'Soul Processor Ministry' and the assistant leader of the 'Ink Portal Ministry'.",
+    "range": "2009–2011"
+  },
+  {
+    "role": "Web Content Officer",
+    "company": "Asian Media Development Group",
+    "summary": "I designed the website and developed the content for our products; and handled the backend and management of our community forums. I was also involved in preparing our community events and guiding our game masters on running in-game events.<br/><br/>Products: Lineage II South-East Asia (developer: NCsoft Korea); Guild Wars Philippines Community (developer: ArenaNet)",
+    "range": "2007–2008",
+    "client": ["NCsoft (KO)", "ArenaNet"],
+    "product": ["Lineage II South-East Asia", "Guild Wars Philippines Community"]
+  },
+  {
+    "role": "Founder and Leader",
+    "company": "Holy Order of the Light",
+    "summary": "I founded the largest multi-gaming guild in the Philippines, and one of the top gaming community in ASEAN. I established the guidelines and principles of the community guild which led to a long-lasting, tight-knit group of family and friends. The community is still active under its new capable leaders.",
+    "range": "2003–2006"
+  },
+  {
+    "role": "Product Research, Competitive Analysis, and Community Management",
+    "company": "Digital Media Exchange",
+    "summary": "I administered and moderated our community forums for various games, and prepared in-game and offline community events. I also did research on potential products we can publish in the Philippines, while providing competitive analysis of the local market.<br/><br/>Products: Mu Online Philippines (developer: WebZen Korea); Gunbound World Champion (developer: Softnyx Korea)",
+    "range": "2004–2006",
+    "client": ["WebZen (KO)", "Softnyx (KO)"],
+    "product": ["Mu Online Philippines", "Gunbound World Champion"]
+  },
+  {
+    "role": "Game Security Research and Game Master",
+    "company": "Level-Up! Games, Inc.",
+    "summary": "I researched various ways how our customers were cheating in the game, and met with players—incognito—to gather more information. I pioneered and developed how to spot an automated character and how to establish a solid report to back up the reason for a permanent ban.<br/><br/>Product: Philippine Ragnarok Online (developer: Gravity Korea)",
+    "range": "2003–2004",
+    "client": ["Gravity (KO)"],
+    "product": ["Philippine Ragnarok Online"]
+  },
+  {
+    "role": "Level Designer and Game Master",
+    "company": "Ansalon MUD",
+    "summary": "I was a voluntary level designer and game master for the online text-based game 'Ansalon'.",
+    "range": "1998–2000",
+    "client": [""],
+    "product": ["Ansalon MUD"]
+  }
+]

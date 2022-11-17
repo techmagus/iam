@@ -1,0 +1,123 @@
+#mainSections = ["blog", "posts"]                                             # Hugo default
+mainTypes = ["article", "sitepage", "review"]                                                # YourOnly.One
+
+rssfull = true
+jquerycdn = true
+websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfeedr.com/", "https://pubsubhubbub.superfeedr.com/", "https://websubhub.com/hub"]
+
+#googleadsense = "ca-pub-8360283248006398"
+
+favicon_mstilecolor = "#ffc40d"
+
+### BGN: Structured Data ###
+  siteStartYear = 2003
+
+  description = "A Creative Commons-Attribution-ShareAlike 4.0 Collaborative and Shared Worldbuilding and Writing Project."
+  license = ""
+  keywords = ["KWWP", "Kolverse", "CC-BY-SA", "Creative Commons", "Collaborative World", "Shared World", "Worldbuilding", "Writing Project"] # Can be overriden per page
+  #images = ["https://rsc.youronly.one/img/y/techmagus-smartphone-1920x1280.webp", "https://rsc.youronly.one/img/y/techmagus-Architetto-Esperiment-chimico.webp"]
+  #copyright = ""
+### END: Structured Data ###
+
+### BGN: Theme settings
+  address = "Philippines"
+  email = "contact@im.youronly.one"
+  favicon = "/favicon.ico"
+  firstName = "JC John"
+  lastName = "Sese Cuneta"
+  #phone = "PHONE"
+  profileImage = "img/me_formal_02-bnw-192x192.jpg"
+  showCertifications = true
+  showAwards = true
+  showAccounts = true
+  showAdvocacy = true
+  showEducation = false
+  showExperience = true
+  showContributions = true
+  showCreations = true
+  showPublications = true
+  showQr = true
+  showSkills = true
+
+  #[[handles]]
+  #  link = "https://www.linkedin.com/in/youronlyone/"
+  #  name = "LinkedIn"
+
+  #[[handles]]
+  #  link = "https://gitlab.com/techmagus"
+  #  name = "Gitlab"
+
+  #[[handles]]
+  #  link = "https://github.com/techmagus"
+  #  name = "Github"
+
+  #[[handles]]
+  #  link = "https://bitbucket.org/techmagus/"
+  #  name = "Bitbucket"
+
+  #[[handles]]
+  #  link = "https://stackoverflow.com/users/306674/"
+  #  name = "Stack Overflow"
+
+  #[[handles]]
+  #  link = "https://keybase.io/yukino"
+  #  name = "Keybase"
+### END: Theme settings
+
+### BGN: Other Settings ###
+  [semweb]
+    org = "yelosan"
+
+    #isni = ""
+    #issn = ""
+    #acquirelicensepage = "https://im.youronly.one/p/legal-notice/"
+    #copyrightnotice = "Copyleft 🄯 CC-BY-SA 4.0 International by JC John Sese Cuneta"
+    credittext = "I'M YourOnly.One (https://im.youronly.one/)"
+    #datecreated = "2003-12-12"
+    isblog = false
+    #license = "https://im.youronly.one/p/legal-notice/"
+    publisher = "https://yelosan.youronly.one/"
+    sameas = [
+      "https://facebook.com/101597304949708/",
+      "https://facebook.com/yelosanpub/",
+      "https://c.im/@youronlyone",
+      "https://mastodon.social/@youronlyone",
+      "https://mastodon.online/@youronlyone",
+      "https://pixelfed.social/youronlyone",
+      "https://youtube.com/YourOnlyONEofcl",
+      "https://twitter.com/YourOnlyONEofcl",
+      "https://instagram.com/YourOnly.One",
+      "https://facebook.com/YourOnly.ONE.ofcl",
+      "https://www.pinterest.com/YourOnlyONEofcl",
+      "https://www.eyeem.com/u/YourOnlyOne",
+      "https://www.goodreads.com/youronlyone",
+      "https://vero.co/youronlyone",
+      "https://ecency.com/@youronlyone",
+      "https://hive.blog/@youronlyone",
+      "https://steemit.com/@youronlyone",
+      "https://gitlab.com/techmagus",
+      "https://github.com/techmagus"
+    ]
+
+    [[semweb.persons]]
+      person = "yuki"
+      #id = ""
+      #name = ""ᜌᜓᜃᜒ (雪亮 | 스노 | Yuki)"
+      #url = ""
+      #avatar = ""
+      #rel = "noopener external nofollow"
+
+  [verify]
+    flattr = "4j1gl5"
+    naver = "0212955cb24d6e2c67f92be3c7833cae8a98fa8e"
+    wot = "06c7ef6e7986586661ef"
+    ocs = "c563648adcfa021a0dfd3d3d8f0be64a"
+    followit = "uYZyV7MVARnWg9phNgMQ"
+
+  [analytics]
+    counterdev = "youronlyone"
+    microanalyticsio = "ZwSg9rf6GA"
+    swetrix = "bYdcXUajNvru"
+    cfwebanalytics = "07a05e5302d1458da3561ce41791e284"
+    microsoftclarity = "63ddi0b99e"
+### END: Other Settings ###
