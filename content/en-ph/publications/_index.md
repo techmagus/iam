@@ -1,6 +1,6 @@
 +++
 title = "Appearances & Publications"
-#date = "2022-11-07T18:20:00+08:00"
+#date = ""
 #link = "NA"
 #image = "img/"
 #description = "NA"
