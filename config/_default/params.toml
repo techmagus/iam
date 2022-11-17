@@ -10,12 +10,12 @@ websubhubs = ["https://pubsubhubbub.appspot.com/", "https://youronlyone.superfee
 favicon_mstilecolor = "#ffc40d"
 
 ### BGN: Structured Data ###
-  siteStartYear = 2003
+  siteStartYear = 2020
 
-  description = "A Creative Commons-Attribution-ShareAlike 4.0 Collaborative and Shared Worldbuilding and Writing Project."
+  description = "Official 'about me' / bio of JC John Sese Cuneta (Yuki)."
   license = ""
-  keywords = ["KWWP", "Kolverse", "CC-BY-SA", "Creative Commons", "Collaborative World", "Shared World", "Worldbuilding", "Writing Project"] # Can be overriden per page
-  #images = ["https://rsc.youronly.one/img/y/techmagus-smartphone-1920x1280.webp", "https://rsc.youronly.one/img/y/techmagus-Architetto-Esperiment-chimico.webp"]
+  keywords = ["YourOnlyOne", "YourOnly.One", "Yuki", "ᜌᜓᜃᜒ", "스노", "雪亮", "author", "bio", "profile", "about", "about me", "cv", "resume", "resumé"] # Can be overriden per page
+  images = ["https://rsc.youronly.one/img/y/Yuki_flag-300h.webp", "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"]
   #copyright = ""
 ### END: Structured Data ###
 
