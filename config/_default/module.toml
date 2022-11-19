@@ -1,7 +1,7 @@
 [hugoVersion]
   extended = true
   #max = ""
-  min = "0.105.0"
+  min = "0.106.0"
 
 [[imports]]
   disable = false                           # default: false
@@ -9,37 +9,36 @@
   ignoreImports = false                     # default: false
   noMounts = false                          # default: false
   noVendor = false                          # default: false
-  path = "gitlab.com/youronlyone/defaults"
+  path = "codeberg.org/yelosan/hugo-feeds"
 
 [[imports]]
-  path = "gitlab.com/yelosan/hugo-semantic-web"
+  path = "codeberg.org/yelosan/hugo-shortcodes"
 
 [[imports]]
-  path = "gitlab.com/yelosan/hugo-shortcodes"
-
-[[imports]]
-  path = "gitlab.com/yelosan/hugo-feeds"
-
-[[imports]]
-  path = "github.com/techmagus/hugo-theme-resume"
-
-# BGN: // content
-#[[imports]]
-#  path = "github.com/kolverse/{REPO_NAME}"
-#    [[imports.mounts]]
-#      source = "{REPO_NAME}/en"
-#      target = "content"
-#      lang = "en"
-# END: // content
-
+  path = "codeberg.org/yelosan/hugo-semantic-web"
 
 #[[imports]]
 #  path = "gitlab.com/youronlyone/images"
-#  # BGN: /techmagus/ images
+#  # BGN: /iam.youronly.one/ images
 #    [[imports.mounts]]
-#      source = "techmagus"
+#      source = "iam.youronly.one"
 #      target = "assets/images"
-#  # END: /techmagus/ images
+#  # END: /iam.youronly.one/ images
+
+#[[imports]]
+#  path = "codeberg.org/youronlyone/content"
+#  # BGN: /iam.youronly.one/ content
+#    [[imports.mounts]]
+#      source = "iam.youronly.one/en-ph"
+#      target = "content"
+#      lang = "en-ph"
+#  # END: /iam.youronly.one/ content
+
+[[imports]]
+  path = "codeberg.org/youronlyone/defaults"
+
+[[imports]]
+  path = "github.com/techmagus/hugo-theme-resume"
 
 
 # See: https://gohugo.io/hugo-modules/configuration/#module-config-mounts
