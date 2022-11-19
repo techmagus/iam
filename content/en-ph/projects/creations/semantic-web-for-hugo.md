@@ -42,7 +42,7 @@ images = ["img/projects/semweb-for-hugo-screengrab.png"]
 
 link = "https://semweb.youronly.one"
 license_name = "The MIT License (MIT)"
-license_link = "https://gitlab.com/yelosan/hugo-semantic-web/-/blob/main/LICENSE"
+license_link = "https://codeberg.org/yelosan/hugo-semantic-web/src/branch/main/LICENSE"
 status = "released"
 
 type = "projects"                                             # article, sitepage, review
