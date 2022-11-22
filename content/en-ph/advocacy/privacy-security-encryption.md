@@ -3,8 +3,8 @@ title = "Privacy, Security, and Encryption"
 description = "We need to educate and inform every individual about the important of privacy, security, and end-to-end encryption (e2ee)."
 
 lastmod = "2022-11-17T12:17:44+08:00"                 # last update; manually adjust to local timezone
-publishdate = "2022-11-17T12:17:44+08:00"             # first publication; manually adjust to local timezone
-date = "2022-11-07T18:20:00+08:00"                    # first created; manually adjust to local timezone
+publishdate = "2005-08-17T17:08:12+08:00"             # first publication; manually adjust to local timezone
+date = "2005-08-17T17:08:12+08:00"                    # first created; manually adjust to local timezone
 #expirydate = "2022-04-07T17:53:01+08:00"              # expiry; manually adjust to local timezone
 
 #aliases = [""]                                        # "/post"

@@ -27,7 +27,7 @@ translationKey = "kwwp-01"
 #tags = [""]
 
 comments = false
-#weight = "200"
+#weight = "2001"
 
 featured = false
 #math = true
@@ -40,7 +40,7 @@ translation = false
 images = ["img/projects/kwwp-logo-01-1280x-transparent.webp"]
 #videos = ["https://www.youtube.com/watch?v="]
 
-#link = "https://gitlab.com/kolverse/"
+link = "https://codeberg.org/kolverse"
 license_name = "Creative Commons-Attribution-ShareAlike (CC-BY-SA) 4.0 International License"
 license_link = "https://creativecommons.org/licenses/by-sa/4.0/"
 status = "to-be-relaunched"
@@ -62,4 +62,8 @@ type = "projects"                                             # article, sitepag
   #rel = "noopener"
 +++
 
-The **Kolverse Worldbuilding and Writing Project** (**KWWP** / **Verses Space**) is a collaborative shared world project under a Creative Commons-Attribution-ShareAlike (CC-BY-SA) 4.0 International License. It aims to build a database of CC-BY-SA worldbuilding materials authors can use for their stories.
+The **Kolverse Worldbuilding and Writing Project** (**KWWP** / **Kolverse Project**) is a collaborative shared world project under a Creative Commons-Attribution-ShareAlike (CC-BY-SA) 4.0 International License. It aims to build a database of CC-BY-SA worldbuilding materials authors can use for their stories.
+
+By licensing all works under CC-BY-SA 4.0 International License, we elimate the *unofficial* status of fan-made works. All fan-made works share the same status as the original, and the author does not have to delete their works because of a potential *Copyright infringement* once they make it big.
+
+Worldbuilders can continue creating new materials, and authors can concentrate on writing new stories. Two different aspects of creative fiction which requires a different set of skills. Through the *Kolverse Worldbuilding and Writing Project*, we are providing worldbuilders a place to share their works, and authors a database of source materials for their next great adventure.

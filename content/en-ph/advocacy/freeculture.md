@@ -3,8 +3,8 @@ title = "Free Culture"
 description = "An advocacy to promote the freedom to distribute and modify works in the form of free/open content."
 
 lastmod = "2022-11-17T12:17:44+08:00"                 # last update; manually adjust to local timezone
-publishdate = "2022-11-17T12:17:44+08:00"             # first publication; manually adjust to local timezone
-date = "2022-11-07T18:20:00+08:00"                    # first created; manually adjust to local timezone
+publishdate = "2004-05-25T20:20:20+08:00"             # first publication; manually adjust to local timezone
+date = "2004-05-25T20:20:20+08:00"                    # first created; manually adjust to local timezone
 #expirydate = "2022-04-07T17:53:01+08:00"              # expiry; manually adjust to local timezone
 
 #aliases = [""]                                        # "/post"

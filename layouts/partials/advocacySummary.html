@@ -1,6 +1,6 @@
 <h3 class="mb-3"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
 <div class="resume-item d-flex flex-column flex-md-row mb-3">
-  <div class="resume-content" style="width: 13%; max-width: 13%;">
+  <div class="resume-date" style="width: 17%; max-width: 17%; min-width: min-content;">
     {{/* Yelosan: updated */}}
     {{- with .Params.images -}}
       {{- range first 1 . -}}
@@ -8,7 +8,7 @@
       {{- end -}}
     {{- end -}}
   </div>
-  <div class="resume-date">
+  <div class="resume-content" style="width: 80%; max-width: 80%;">
     <p>{{ .Description | safeHTML }}<p>
     <p class><a href="{{.Permalink}}">Read more..</a></p>
   </div>

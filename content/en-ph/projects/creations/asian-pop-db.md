@@ -37,12 +37,12 @@ translation = false
 #translationby = ""
 
 #audio = [""]
-#images = ["images/{LETTER}/{FILENAME}.webp"]
+images = ["img/projects/singing-boy.svg"]
 #videos = ["https://www.youtube.com/watch?v="]
 
-link = "https://github.com/yelosan/asian-pop-db"
+link = "https://codeberg.org/yelosan/asian-pop-database"
 license_name = "ODC Open Database License (ODbL)"
-license_link = "https://github.com/yelosan/asian-pop-db/blob/main/LICENSE"
+license_link = "https://codeberg.org/yelosan/asian-pop-database/src/branch/main/LICENSE"
 status = "to-be-released"
 
 type = "projects"                                             # article, sitepage, review
@@ -63,3 +63,29 @@ draft = true
 +++
 
 **Asian Pop Db** or **APDb** is a database of Asian pop music artists freely available under the Open Database License ("ODbL").
+
+---
+
+{{< image
+  type="imagecoverattrib"
+
+  isrepresentativeofpage=true
+
+  link="https://openclipart.org/detail/316586/singing-boy"
+  linkrel="noopener external"
+  thumbnailurl=""
+
+  title="Singing boy"
+  caption=""
+  alt="Singing boy"
+
+  datepublished="2019-03-11"
+
+  licensecode="publicdomain"
+  licenseurl="https://openclipart.org/share"
+  licensename=""
+
+  attribto="oksmith"
+  attriburl="https://openclipart.org/artist/oksmith"
+  attribrel="noopener external"
+>}}

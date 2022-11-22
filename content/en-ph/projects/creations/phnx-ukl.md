@@ -27,7 +27,7 @@ translationKey = "phoenician-unicode-keyboard-layout-01"
 #tags = [""]
 
 comments = false
-#weight = "100"
+#weight = "3002"
 
 featured = true
 #math = true
@@ -37,12 +37,12 @@ translation = false
 #translationby = ""
 
 #audio = [""]
-images = ["img/projects/phnx-ukl.png"]
+images = ["img/projects/input-keyboard.svg"]
 #videos = ["https://www.youtube.com/watch?v="]
 
-link = "https://bitbucket.org/paninap/phnx-ukl/"
+link = "https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician"
 license_name = "The MIT License (MIT)"
-license_link = "https://bitbucket.org/paninap/phnx-ukl/src/HEAD/LICENSE"
+license_link = "https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician/src/branch/main/LICENSE"
 status = "released"
 
 type = "projects"                                             # article, sitepage, review
@@ -64,6 +64,8 @@ type = "projects"                                             # article, sitepag
 
 The **Phoenician Unicode Keyboard Layout** or **PHNX-UKL** is the first Unicode-compliant keyboard layout for the Phoenician Unicode block. Its main feature is the incorporation of the characters commonly used in various ancient Western Asian writing scripts.
 
+<!--more-->
+
 - Ammonite
 - Early Aramaic
 - Old Hebrew dialects
@@ -83,7 +85,7 @@ There are also some exceptions. While the Samaritan script is similar and one of
 
 Lastly, why "Phoenician" and not "Palœo-Hebrew"? Simply because the former was the name chosen by the Unicode Consortium to refer to this Unicode block. As this keyboard project is a Unicode-compliant layout, using the name assigned by the Unicode is part of it. If in the future they change the block name to the latter, then this project will implement the same.
 
-#### Project info
+## Project info
 
 - Based on: [Unicode 8.0](https://blog.unicode.org/2015/06/announcing-unicode-standard-version-80.html) (2015-06-17)
 - Unicode block: [U+10900…U+1091F](https://www.unicode.org/charts/PDF/U10900.pdf)
@@ -91,25 +93,25 @@ Lastly, why "Phoenician" and not "Palœo-Hebrew"? Simply because the former was 
 - Latest version: 1.0.0
 - First release: 2015-07-19
 - Official website: [https://im.youronly.one/techmagus/projects/keyboard/paleo-hebrew-phoenician-unicode-keyboard-2015200/](https://im.youronly.one/techmagus/projects/keyboard/paleo-hebrew-phoenician-unicode-keyboard-2015200/)
-- Git: [https://bitbucket.org/paninap/phnx-ukl](https://bitbucket.org/paninap/phnx-ukl)
+- Git: [https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician](https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician)
 - Project contact: [techmagus](https://im.youronly.one/p/contact-us/)
 
 *A project of [Yelosan Publishing](https://yelosan.youronly.one).*
 
-### Fonts
+## Fonts
 
-To see the glyphs that you are typing, you will need a Unicode-compliant or mixed-Unicode set of fonts. For more information and download links, visit our [wiki here](https://bitbucket.org/paninap/phnx-ukl/wiki/Fonts).
+To see the glyphs that you are typing, you will need a Unicode-compliant or mixed-Unicode set of fonts. For more information and download links, visit our [wiki here](https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician/wiki/Fonts).
 
-### License
+## License
 
 - Content License: Creative Commons-Attribution 4.0 International (CC BY-SA 4.0 International License)
 - Code Copyright and License:
   - Copyright © 2015, 2016, 2018 JC John Sese Cuneta.
-  - Copyleft 🄯 2015, 2016, 2018 JC John Sese Cuneta. [The MIT License](https://bitbucket.org/paninap/phnx-ukl/wiki/License)
+  - Copyleft 🄯 2015, 2016, 2018 JC John Sese Cuneta. [The MIT License](https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician/src/branch/main/LICENSE)
 
-### Keyboard Layout Images
+## Keyboard Layout Images
 
-#### Neo-Paleo Layout
+### Neo-Paleo Layout Images
 
 There were some keys which were left unassigned, what I did was assign a value. These are:
 
@@ -128,21 +130,21 @@ I also added 3 Unicode code points for inline directional use. These are:
 
 Examples:
 
-- The title of the book is: ⁧𐤌𐤁𐤅𐤀 𐤋 ⁦C++⁩⁩ ("An Introduction to C++")
-- My name in Hebrew is ⁧𐤉𐤅𐤇𐤍𐤍!⁩ (Yahuhanan)
+- The title of the book is: <bdi dir="rtl" lang="hbo-Hebr">𐤌𐤍𐤉𐤀 𐤋 <bdi class="reset-1_25em" dir="ltr" lang="en">C++</bdi></bdi> ("An Introduction to C++")
+- My name in Hebrew is <bdi dir="rtl" lang="hbo-Hebr">𐤉𐤅𐤇𐤍𐤍!</bdi> (Yahuhanan)
 
 Without these invisible markers, in the first example, the "C++" will become "++C"; in the second example, the exclamation point "!" will be on the right side not left. Also, you would have to cheat by first typing "C++" or the exclamation point "!" before typing Hebrew just to achieve the correct format (which is not advisable as far as semantics, relationships, and typing-flow are concerned). See [https://www.w3.org/International/articles/inline-bidi-markup/](https://www.w3.org/International/articles/inline-bidi-markup/).
 
 {{< image
-  height="70%"
-  width="70%"
+  height=""
+  width=""
   class=""
   style=""
 
   isrepresentativeofpage=false
 
-  src="https://bitbucket.org/repo/dpEe94/images/1312841647-PHNX-Neo_in_Ancient_Hebrew_6000-1700BCE_font.png"
-  link="https://bitbucket.org/repo/dpEe94/images/1312841647-PHNX-Neo_in_Ancient_Hebrew_6000-1700BCE_font.png"
+  src="https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician/raw/branch/main/images/PHNX-Neo_in_Ancient_Hebrew_6000-1700BCE_font.png"
+  link="https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician/raw/branch/main/images/PHNX-Neo_in_Ancient_Hebrew_6000-1700BCE_font.png"
   linkrel="noopener external"
 
   title="Neo-Paleo Layout"
@@ -161,15 +163,15 @@ Without these invisible markers, in the first example, the "C++" will become "++
 >}}
 
 {{< image
-  height="70%"
-  width="70%"
+  height=""
+  width=""
   class=""
   style=""
 
   isrepresentativeofpage=false
 
-  src="https://bitbucket.org/repo/dpEe94/images/3811385080-PHNX-Neo_in_Noto_Sans_Phoenician_font.png"
-  link="https://bitbucket.org/repo/dpEe94/images/3811385080-PHNX-Neo_in_Noto_Sans_Phoenician_font.png"
+  src="https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician/raw/branch/main/images/PHNX-Neo_in_Noto_Sans_Phoenician_font.png"
+  link="https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician/raw/branch/main/images/PHNX-Neo_in_Noto_Sans_Phoenician_font.png"
   linkrel="noopener external"
 
   title="Neo-Paleo Layout"
@@ -188,15 +190,15 @@ Without these invisible markers, in the first example, the "C++" will become "++
 >}}
 
 {{< image
-  height="70%"
-  width="70%"
+  height=""
+  width=""
   class=""
   style=""
 
   isrepresentativeofpage=false
 
-  src="https://bitbucket.org/repo/dpEe94/images/418159615-PHNX-Neo_in_Paleo-Hebrew_Gezer_1000-901BCE_font.png"
-  link="https://bitbucket.org/repo/dpEe94/images/418159615-PHNX-Neo_in_Paleo-Hebrew_Gezer_1000-901BCE_font.png"
+  src="https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician/raw/branch/main/images/PHNX-Neo_in_Paleo-Hebrew_Gezer_1000-901BCE_font.png"
+  link="https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician/raw/branch/main/images/PHNX-Neo_in_Paleo-Hebrew_Gezer_1000-901BCE_font.png"
   linkrel="noopener external"
 
   title="Neo-Paleo Layout"
@@ -214,21 +216,21 @@ Without these invisible markers, in the first example, the "C++" will become "++
   attribrel="noopener"
 >}}
 
-### Attributions
+## Attributions
 
-#### To 𐤉𐤄𐤅𐤄 (Yahuwah) and his son 𐤉𐤄𐤅𐤔𐤏 (Yahushua)
+### To <bdi class="font-Hebr-ancient" dir="rtl" lang="hbo-Hebr">𐤉𐤄𐤅𐤄</bdi> (Yahuwah) and his son <bdi dir="rtl" lang="hbo-Hebr">𐤉𐤄𐤅𐤔𐤏</bdi> (Yahushua)
 
-Thank you for the strength and support. You deserve all the glory, honour, praise, and worship, now and forevermore. AHMEIN! 𐤄𐤋𐤋𐤅𐤉𐤄 (HalleluYAH)
+Thank you for the strength and support. You deserve all the glory, honour, praise, and worship, now and forevermore. AHMEIN! <bdi dir="rtl" lang="hbo-Hebr">𐤄𐤋𐤋𐤅𐤉𐤄</bdi> (HalleluYAH)
 
-#### Neo-Paleo Layout
+### Neo-Paleo Keyboard Layout
 
-This site, [Neo-Paleo Layout](https://loveandtruth.net/neopaleo.html), was shown to me by brother [Ted Walther](https://www.facebook.com/tederific), I am very grateful, blessings to you from 𐤉𐤄𐤅𐤄 (Yahuwah) and his son 𐤉𐤄𐤅𐤔𐤏 (Yahushua).
+This site, [Neo-Paleo Layout](https://loveandtruth.net/neopaleo.html), was shown to me by brother [Ted Walther](https://www.facebook.com/tederific), I am very grateful, blessings to you from <bdi class="font-Hebr-ancient" dir="rtl" lang="hbo-Hebr">𐤉𐤄𐤅𐤄</bdi> (Yahuwah) and his son <bdi dir="rtl" lang="hbo-Hebr">𐤉𐤄𐤅𐤔𐤏</bdi> (Yahushua).
 
-#### To all the followers of Aluahim
+### To all the followers of Aluahim
 
 This Unicode-compliant keyboard layout is for you. I hope it will help in spreading the Besorah of Yahushua and in learning the original Hebrew language.
 
-#### Blank Keyboard Layout
+### Blank Keyboard Layout
 
 The keyboard layout shown in the images were:
 
@@ -236,7 +238,33 @@ The keyboard layout shown in the images were:
 - By: DaemonDice
 - Source: [Blank BRSB Keyboard Layout.svg](https://commons.wikimedia.org/wiki/File%3ABlank_BRSB_Keyboard_Layout.svg)
 
-### Download and install
+## Download and install
 
-- [Download the Keyboard installer tagged "PHNX-UKL"](https://bitbucket.org/paninap/phnx-ukl/downloads)
-- [Get Unicode fonts here](https://bitbucket.org/paninap/phnx-ukl/wiki/Fonts)
+- [Download the Keyboard installer tagged "PHNX-UKL"](https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician/releases)
+- [Get Unicode fonts here](https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician/wiki/Fonts)
+
+---
+
+{{< image
+  type="imagecoverattrib"
+
+  isrepresentativeofpage=true
+
+  link="https://openclipart.org/detail/34561/tango-input-keyboard"
+  linkrel="noopener external"
+  thumbnailurl=""
+
+  title="tango input keyboard"
+  caption=""
+  alt="tango input keyboard"
+
+  datepublished="2010-03-27"
+
+  licensecode="publicdomain"
+  licenseurl="https://openclipart.org/share"
+  licensename=""
+
+  attribto="warszawianka"
+  attriburl="https://openclipart.org/artist/warszawianka"
+  attribrel="noopener external"
+>}}

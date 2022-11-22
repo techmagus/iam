@@ -40,7 +40,7 @@ translation = false
 images = ["img/projects/ansalon-mud-logo.png"]
 #videos = ["https://www.youtube.com/watch?v="]
 
-link = "https://github.com/AnsalonMUD/ansalonclient/"
+link = "https://github.com/AnsalonMUD"
 #license_name = ""
 #license_link = ""
 #status = ""

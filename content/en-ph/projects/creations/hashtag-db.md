@@ -40,9 +40,9 @@ translation = false
 images = ["img/projects/hashtag-speech-bubble.svg"]
 #videos = ["https://www.youtube.com/watch?v="]
 
-#link = "https://github.com/yelosan/hashtag-db"
+link = "https://codeberg.org/yelosan/hashtag-database"
 license_name = "ODC Open Database License (ODbL)"
-license_link = "https://github.com/yelosan/hashtag-db/blob/main/LICENSE"
+license_link = "https://codeberg.org/yelosan/hashtag-database/src/branch/main/LICENSE"
 status = "to-be-released"
 
 type = "projects"                                             # article, sitepage, review
@@ -72,16 +72,18 @@ draft = true
 
   isrepresentativeofpage=true
 
-  link="img/projects/hashtag-speech-bubble.svg"
-  linkrel="noopener"
+  link="https://commons.wikimedia.org/wiki/File:WLW_Hashtag_in_a_Speech_bubble.svg"
+  linkrel="noopener external"
   thumbnailurl=""
 
   title="WLW Hashtag in a Speech bubble"
   caption=""
   alt="WLW Hashtag in a Speech bubble"
 
+  datepublished="2022-08-17"
+
   licensecode="ccbysa4"
-  licenseurl="https://creativecommons.org/licenses/by-sa/4.0/"
+  licenseurl="https://commons.wikimedia.org/wiki/File:WLW_Hashtag_in_a_Speech_bubble.svg#License"
   licensename="Creative Commons-Attribution-ShareAlike 4.0 International License"
 
   attribto="Islahaddow"

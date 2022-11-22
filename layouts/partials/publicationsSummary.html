@@ -1,12 +1,12 @@
 <div class="resume-item d-flex flex-column flex-md-row mb-5">
-  <div class="publication-content mr-auto">
-    <h3 class="mb-0">{{ .Params.pubtype }} - <a href="{{ .Permalink }}">{{ .Params.title }}</a></h3>
-    <div>{{ .Params.description | safeHTML }}</div>
+  <div class="resume-content mr-auto" style="width: 80%; max-width: 80%;">
+    <h3 class="mb-0">{{ .Params.pubtype }} - <a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <div>{{ .Description | safeHTML }}</div>
     <p>{{ partial "techtags" . }}</p>
   </div>
-  <div class="resume-date text-md-right" style="width: 10%; max-width: 10%;">
-    <span class="text-primary">{{ .Params.date | dateFormat "2006-01-02" }}</span>
+  <div class="resume-date text-md-right" style="width: 20%; max-width: 20%; min-width: min-content;">
     {{/* Yelosan: updated */}}
+    <span class="text-primary">{{ .Params.date | dateFormat "2006-01-02" }}</span>
     {{- with .Params.images -}}
       {{- range first 1 . -}}
         <img src="{{ . | relURL }}" style="width: 94%; max-width: 94%; padding-top: 7px;" />
@@ -14,3 +14,4 @@
     {{- end -}}
   </div>
 </div>
+<div>{{ partial "techtags" . }}</div>
