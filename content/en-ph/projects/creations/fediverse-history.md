@@ -64,7 +64,7 @@ type = "projects"                                             # article, sitepag
 
 In a fast-paced world like what we have today, recording events is often forgotten. This is especially true in the digital era, wherein we assume that every piece of information will remain available indefinitely, and archived somewhere. Unfortunately, that is not the case at all. Sites, portals, databases, even software repositories, all come and go. If no one kept a copy, the information is gone forever.
 
-It proved this when I started this project. There was countless information that are now gone forever, and in an age where words of individuals no longer hold any weight—unless they are a personality—a source is often expected, if not demanded.
+It proved this when I started this project. There were countless information which are now gone forever, and in an age where words of individuals no longer hold any weight—unless they are a personality—a source is often expected, if not demanded.
 
 My desire to change that resulted in the creation of {{% quote type="work" lang="en" %}}The Federated SNS Timeline{{% /quote %}}. A list of the  {{% quote type="name" lang="en" %}}Federated Social Network{{% /quote %}} history, gathered on this page, with links to sources scattered everywhere.
 
