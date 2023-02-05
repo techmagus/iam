@@ -62,7 +62,7 @@ type = "projects"                                             # article, sitepag
   #rel = "noopener"
 +++
 
-**Semantic Web for Hugo** adds *structured data* and *linked data* into a Hugo-powered website. Through it search engines can easily read the data of a Hugo-powered website and establish relationships between objects. This enables search engines to intelligently store information about a website and use it to increase a website’s exposure in search results.
+**Semantic Web for Hugo** adds *structured data* and *linked data* into a Hugo-powered website. Through it, search engines can easily read the data of a Hugo-powered website and establish relationships between objects. This enables search engines to intelligently store information about a website and use it to increase a website’s exposure in search results.
 
 ---
 

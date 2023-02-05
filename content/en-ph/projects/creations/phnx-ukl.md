@@ -79,11 +79,11 @@ The **Phoenician Unicode Keyboard Layout** or **PHNX-UKL** is the first Unicode-
 - Phoenician papyri
 - Punic
 
-In addition to the above, the Phoenician Unicode block is also compatible with a much earlier script than Palæo-Hebrew/Phoenician which is *Ancient Hebrew (a.k.a. Proto-Canaanite; Early Hebrew; Proto-Sinaitic)*, a pictograph script which was in used from 6000 B.C.E. to 1700 B.C.E. As the Ancient Hebrew script is still being deciphered and might have more glyphs, the Unicode Consortium in the future may assign a separate block for this.
+In addition to the above, the Phoenician Unicode block is also compatible with a much earlier script than Paleo-Hebrew / Phoenician which is *Ancient Hebrew (a.k.a. Proto-Canaanite; Early Hebrew; Proto-Sinaitic)*, a pictograph script used from 6000 B.C.E. to 1700 B.C.E. As the Ancient Hebrew script is still being deciphered and might have more glyphs, the Unicode Consortium in the future may assign a separate block for this.
 
-There are also some exceptions. While the Samaritan script is similar and one of the closely related and surviving writing system to the Palæo-Hebrew/Phoenician family, the Unicode consortium assigned a separate block ([U+0800…U+083F](https://www.unicode.org/charts/PDF/U0800.pdf)) for the Samaritan script. As such, do not use the Phoenician Unicode block when creating a font for or typing in Samaritan.
+There are also some exceptions. While the Samaritan script is similar and one of the closely related and surviving writing system to the Paleo-Hebrew / Phoenician family, the Unicode consortium assigned a separate block ([U+0800…U+083F](https://www.unicode.org/charts/PDF/U0800.pdf)) for the Samaritan script. As such, do not use the Phoenician Unicode block when creating a font for or typing in Samaritan.
 
-Lastly, why "Phoenician" and not "Palœo-Hebrew"? Simply because the former was the name chosen by the Unicode Consortium to refer to this Unicode block. As this keyboard project is a Unicode-compliant layout, using the name assigned by the Unicode is part of it. If in the future they change the block name to the latter, then this project will implement the same.
+Lastly, why "Phoenician" and not "Paleo-Hebrew"? Simply because the former was the name chosen by the Unicode Consortium to refer to this Unicode block. As this keyboard project is a Unicode-compliant layout, using the name assigned by the Unicode is part of it. If in the future they change the block name to the latter, then this project will implement the same.
 
 ## Project info
 

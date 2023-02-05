@@ -59,7 +59,7 @@ pubtype = "Interview"
   #rel = "noopener"
 +++
 
-An interview about my experiences as an autistic person and how the Korean drama, {{% quote type="title" lang="en" %}}Extraordinary Attorney Woo{{% /quote %}} ({{% quote type="title" lang="ko" %}}이상한 변호사 우영우{{% /quote %}}). did in portraying the autism.
+An interview about my experiences as an autistic person and how the Korean drama, {{% quote type="title" lang="en" %}}Extraordinary Attorney Woo{{% /quote %}} ({{% quote type="title" lang="ko" %}}이상한 변호사 우영우{{% /quote %}}), did in portraying the autism.
 
 - Journalist: {{% quote type="name" lang="ko-Latn" %}}Hwang Hye Jung{{% /quote %}} ({{% quote type="name" lang="ko" %}}황혜정{{% /quote %}})
 - Publication: {{% quote type="name" lang="en" %}}Sports Seoul{{% /quote %}} ({{% quote type="name" lang="ko" %}}스포츠서울{{% /quote %}})

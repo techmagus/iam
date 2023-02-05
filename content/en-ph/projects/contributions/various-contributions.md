@@ -62,7 +62,7 @@ type = "projects"                                             # article, sitepag
   #rel = "noopener"
 +++
 
-These are the projects where I contributed and helped the community and/or software grow.
+These are the projects where I contributed and helped the community and/or the software grow.
 
 #### Prism Detached for Wordpress
 
@@ -196,7 +196,7 @@ These are the projects where I contributed and helped the community and/or softw
 
 **b2evolution** is a Content Management System (CMS) aimed at making it easy to build and maintain websites for sharing information and collaborating with your community.
 
-I contributed themes for the b2evolution community. I was also a moderator in the support forums, and assisted by answering questions.
+I contributed themes for the b2evolution community. I was also a moderator in the support forums, and assisted in answering questions.
   {{% /layout %}}
 {{< /layout >}}
 

@@ -57,10 +57,9 @@ type = "advocacy"                                             # article, sitepag
   #rel = "noopener"
 +++
 
-
 **Privacy** and **security** are very important and often neglected or dismissed by many individuals. It is not true that if one has nothing to hide, then privacy and security can be put aside. It is every human being's right to have privacy and security in all aspects of our lives, from our homes to our digital presence.
 
-We need to educate and inform every individual about the important of privacy, security, and end-to-end encryption (e2ee).
+We need to educate and inform every individual about the importance of privacy, security, and end-to-end encryption (e2ee).
 
 ---
 

@@ -14,4 +14,4 @@ weight = 20
   #weight = 0.5
 +++
 
-Projects I submitted contributions, or was part of the team.
+Projects I submitted contributions to, or was part of the team.

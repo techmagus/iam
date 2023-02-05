@@ -62,7 +62,6 @@ draft = true
   #rel = "noopener"
 +++
 
-
 **Hashtag Db** or **HtDb** is a database of commonly used SNS hashtags freely available under the Open Database License ("ODbL"). It contains a description of each hashtag, and other information.
 
 ---

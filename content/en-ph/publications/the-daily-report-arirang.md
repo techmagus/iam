@@ -59,7 +59,6 @@ pubtype = "Panelist"
   #rel = "noopener"
 +++
 
-
 The discussion looked at the portrayal of disabilities in Korean dramas, particularly with autism as depicted in {{% quote type="title" lang="en" %}}Extraordinary Attorney Woo{{% /quote %}} ({{% quote type="title" lang="ko" %}}이상한 변호사 우영우{{% /quote %}}).
 
 - Program: {{% quote type="title" lang="en" %}}The Daily Report{{% /quote %}}

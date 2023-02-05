@@ -77,7 +77,7 @@ The **PhilGaming.Community** was a gaming website and online forums which catere
 - Years: 1998–2007
 - Forums: Ultimate Bulletin Board (UBB); Invision Power Board (IPB); Simple Machines Forums (SMF)
 
-Sometime in 1998, I started to build my first online community forums. It was powered by **Ultimate Bulletin Board** or **UBB**, one of the oldest online forum software. This was the beginning of the **Laibcoms.Community**. The **Laibcoms.Community** was an online community forums visited by English-speaking individuals from Asia and the rest of the world. There were sections for anime, gaming, life, movies, and books, to mention a few. This was my first foyer into community management, and have learned the ropes on my own through this community and its varied members.
+Sometime in 1998, I started to build my first online community forums. It was powered by **Ultimate Bulletin Board** or **UBB**, one of the oldest online forum software. This was the beginning of the **Laibcoms.Community**. The **Laibcoms.Community** was an online community forums visited by English-speaking individuals from Asia and the rest of the world. There were sections for anime, gaming, life, movies, and books, to mention a few.
 
 #### Webrings and mailing lists/groups
 
@@ -85,7 +85,7 @@ Sometime in 1998, I started to build my first online community forums. It was po
 - Years: 1998–2007
 - Platforms: WebRing; eGroups and Y! Clubs (later combined as Y! Groups)
 
-During these same years, I was also active in managing webrings and mailing lists/groups. There were many large webrings and mailing lists which were transferred to me, or I tookover after the account of the original owners expired. Where needed, I established new guidelines, assigned new moderators, and developed programs to revitalised these communities.
+During these same years, I was also active in managing webrings and mailing lists/groups. There were many large webrings and mailing lists which were transferred to me, or I took over after the account of the original owners expired. Where needed, I established new guidelines, assigned new moderators, and developed programs to revitalise these communities.
 
 ---
 

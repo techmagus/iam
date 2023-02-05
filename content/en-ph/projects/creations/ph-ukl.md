@@ -62,7 +62,7 @@ type = "projects"                                             # article, sitepag
   #rel = "noopener"
 +++
 
-The **Philippines Unicode Keyboard Layout** or **PH-UKL** is the first Unicode-based keyboard layout made for the Filipino nation and state of the Philippines. Its main feature is the incorporation of the characters commonly used in the Philippines especially the *Philippine Peso Sign* (**₱**). Prior to this, Filipinos have to use a strike-through letter P (~~P~~); the Dollar Sign ($) [the de facto universal currency sign but is confusing today]; or the not-so-common neutral currency symbol: ¤
+The **Philippines Unicode Keyboard Layout** or **PH-UKL** is the first Unicode-based keyboard layout made for the Filipino nation and state of the Philippines. Its main feature is the incorporation of characters commonly used in the Philippines, especially the *Philippine Peso Sign* (**₱**). Prior to this, Filipinos have to use a strike-through letter P (~~P~~); the Dollar Sign ($) [the de facto universal currency sign but is confusing today]; or the not-so-common neutral currency symbol: ¤.
 
 <!-- more -->
 

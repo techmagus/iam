@@ -57,7 +57,7 @@ type = "advocacy"                                             # article, sitepag
   #rel = "noopener"
 +++
 
-As an openly autistic person, I strongly advocate for autism awareness and autism acceptance. This include advocating against discrimination, eliminating social prejudice, and stigma, through education and timely information.
+As an openly autistic person, I strongly advocate for autism awareness and autism acceptance. This includes advocating against discrimination, eliminating social prejudice, and stigma, through education and timely information.
 
 ---
 
