@@ -2,10 +2,10 @@
 title = "The Federated SNS (Fediverse) Historical Timeline"
 description = "A timeline of key points in the history of the fediverse or the federated social network."
 
-lastmod = "2022-12-19T13:08:04+08:00"                 # last update; manually adjust to local timezone
-publishdate = "2022-12-12T20:22:21+08:00"             # first publication; manually adjust to local timezone
-date = "2022-11-22T11:22:20+08:00"                    # first created; manually adjust to local timezone
-#expirydate = "2022-04-07T17:53:01+08:00"              # expiry; manually adjust to local timezone
+lastmod = 2022-12-19T13:08:04+08:00                 # last update; manually adjust to local timezone
+publishdate = 2022-12-12T20:22:21+08:00             # first publication; manually adjust to local timezone
+date = 2022-11-22T11:22:20+08:00                    # first created; manually adjust to local timezone
+#expirydate = 2022-04-07T17:53:01+08:00              # expiry; manually adjust to local timezone
 
 #aliases = [""]                                        # "/post"
 #url = ""                                              # "path/post"; override .Permalink

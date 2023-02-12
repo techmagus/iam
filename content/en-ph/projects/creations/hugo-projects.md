@@ -2,10 +2,10 @@
 title = "Hugo Projects"
 description = "More Hugo projects I am working, or have worked, on."
 
-lastmod = "2022-11-22T04:23:27+08:00"                 # last update; manually adjust to local timezone
-publishdate = "2020-08-12T15:17:24+08:00"             # first publication; manually adjust to local timezone
-date = "2020-08-12T15:17:24+08:00"                    # first created; manually adjust to local timezone
-#expirydate = "2022-04-07T17:53:01+08:00"              # expiry; manually adjust to local timezone
+lastmod = 2022-11-22T04:23:27+08:00                 # last update; manually adjust to local timezone
+publishdate = 2020-08-12T15:17:24+08:00             # first publication; manually adjust to local timezone
+date = 2020-08-12T15:17:24+08:00                    # first created; manually adjust to local timezone
+#expirydate = 2022-04-07T17:53:01+08:00              # expiry; manually adjust to local timezone
 
 #aliases = [""]                                        # "/post"
 #url = ""                                              # "path/post"; override .Permalink

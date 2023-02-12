@@ -2,10 +2,10 @@
 title = "Ansalon MUD Scripts and Plugins"
 description = "Various scripts and plugins for Ansalon MUD written in Lua."
 
-lastmod = "2017-03-17T13:29:31+08:00"                 # last update; manually adjust to local timezone
-publishdate = "2015-10-01T14:15:19+08:00"             # first publication; manually adjust to local timezone
-date = "2015-10-01T14:15:19+08:00"                    # first created; manually adjust to local timezone
-#expirydate = "2022-04-07T17:53:01+08:00"              # expiry; manually adjust to local timezone
+lastmod = 2017-03-17T13:29:31+08:00                 # last update; manually adjust to local timezone
+publishdate = 2015-10-01T14:15:19+08:00             # first publication; manually adjust to local timezone
+date = 2015-10-01T14:15:19+08:00                    # first created; manually adjust to local timezone
+#expirydate = 2022-04-07T17:53:01+08:00              # expiry; manually adjust to local timezone
 
 #aliases = [""]                                        # "/post"
 #url = ""                                              # "path/post"; override .Permalink

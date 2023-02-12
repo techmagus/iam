@@ -2,10 +2,10 @@
 title = "Asian Pop Db (APDb)"
 description = "A database of Asian pop music artists freely available under the Open Database License."
 
-lastmod = "2022-05-14T16:32:55+08:00"                 # last update; manually adjust to local timezone
-publishdate = "2022-01-12T08:00:01+08:00"             # first publication; manually adjust to local timezone
-date = "2022-01-12T08:00:01+08:00"                    # first created; manually adjust to local timezone
-#expirydate = "2022-04-07T17:53:01+08:00"              # expiry; manually adjust to local timezone
+lastmod = 2022-05-14T16:32:55+08:00                 # last update; manually adjust to local timezone
+publishdate = 2022-01-12T08:00:01+08:00             # first publication; manually adjust to local timezone
+date = 2022-01-12T08:00:01+08:00                    # first created; manually adjust to local timezone
+#expirydate = 2022-04-07T17:53:01+08:00              # expiry; manually adjust to local timezone
 
 #aliases = [""]                                        # "/post"
 #url = ""                                              # "path/post"; override .Permalink

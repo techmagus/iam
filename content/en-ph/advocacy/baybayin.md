@@ -2,10 +2,10 @@
 title = "Baybayin"
 description = "Advocating for learning and keeping our native script, Baybayin, alive."
 
-lastmod = "2022-11-17T12:17:44+08:00"                 # last update; manually adjust to local timezone
-publishdate = "2009-06-12T06:00:00+08:00"             # first publication; manually adjust to local timezone
-date = "2009-06-12T06:00:00+08:00"                    # first created; manually adjust to local timezone
-#expirydate = "2022-04-07T17:53:01+08:00"              # expiry; manually adjust to local timezone
+lastmod = 2022-11-17T12:17:44+08:00                 # last update; manually adjust to local timezone
+publishdate = 2009-06-12T06:00:00+08:00             # first publication; manually adjust to local timezone
+date = 2009-06-12T06:00:00+08:00                    # first created; manually adjust to local timezone
+#expirydate = 2022-04-07T17:53:01+08:00              # expiry; manually adjust to local timezone
 
 #aliases = [""]                                        # "/post"
 #url = ""                                              # "path/post"; override .Permalink

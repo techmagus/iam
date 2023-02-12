@@ -2,10 +2,10 @@
 title = "Philippines Unicode Keyboard Layout (PH-UKL)"
 description = "Philippines National Keyboard Layout / Philippines Unicode Keyboard Layout"
 
-lastmod = "2023-02-12T18:19:52+08:00"                 # last update; manually adjust to local timezone
-publishdate = "2010-10-23T19:40:10+08:00"             # first publication; manually adjust to local timezone
-date = "2010-10-23T19:40:10+08:00"                    # first created; manually adjust to local timezone
-#expirydate = "2022-04-07T17:53:01+08:00"              # expiry; manually adjust to local timezone
+lastmod = 2023-02-12T18:19:52+08:00                 # last update; manually adjust to local timezone
+publishdate = 2010-10-23T19:40:10+08:00             # first publication; manually adjust to local timezone
+date = 2010-10-23T19:40:10+08:00                    # first created; manually adjust to local timezone
+#expirydate = 2022-04-07T17:53:01+08:00              # expiry; manually adjust to local timezone
 
 #aliases = [""]                                        # "/post"
 #url = ""                                              # "path/post"; override .Permalink
