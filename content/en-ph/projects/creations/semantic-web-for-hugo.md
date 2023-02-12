@@ -41,8 +41,8 @@ images = ["img/projects/sem-soc-net.svg"]
 #videos = ["https://www.youtube.com/watch?v="]
 
 link = "https://semweb.youronly.one"
-license_name = "The MIT License (MIT)"
-license_link = "https://codeberg.org/yelosan/hugo-semantic-web/src/branch/main/LICENSE"
+license_name = "MIT License (MIT)"
+license_link = "https://codeberg.org/yelosan/hugo-semantic-web/src/branch/main/LICENSE.md"
 status = "released"
 
 type = "projects"                                             # article, sitepage, review
