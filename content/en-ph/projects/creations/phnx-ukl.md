@@ -41,7 +41,7 @@ images = ["img/projects/input-keyboard.svg"]
 #videos = ["https://www.youtube.com/watch?v="]
 
 link = "https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician"
-license_name = "The MIT License (MIT)"
+license_name = "MIT License (MIT)"
 license_link = "https://codeberg.org/yelosan/unicode-keyboard-layout-phoenician/src/branch/main/LICENSE"
 status = "released"
 
