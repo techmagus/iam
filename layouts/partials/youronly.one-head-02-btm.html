@@ -1,0 +1,134 @@
+{{- $onesignal := .Site.Params.tools.onesignal -}}
+
+{{- $yukiscss := resources.Get "scss/yuki-style.scss" -}}
+{{- $globalscss := resources.Get "scss/youronly.one-head-03-global.scss" -}}
+{{- $layoutscss := resources.Get "scss/layouts.scss" -}}
+{{- $semwebcss := resources.Get "css/semweb-style.css" -}}
+{{- $quotecss := resources.Get "css/quote.css" -}}
+{{- $localcss := resources.Get "css/youronly.one-head-04-local.css" -}}
+
+{{- $yookiscss := slice $yukiscss $globalscss $layoutscss | resources.Concat "scss/yooki.scss" -}}
+{{- $yookicss := $yookiscss | resources.ExecuteAsTemplate "css/yooki.css" . | toCSS -}}
+{{- $yookicss = slice $yookicss $semwebcss $quotecss $localcss | resources.Concat "css/yooki.css" -}}
+{{- $yookicss = $yookicss | minify | fingerprint "sha512" -}}
+
+{{- $twemojijs := resources.Get "js/twemoji.js" -}} {{/* src: https://github.com/jdecked/twemoji/tree/gh-pages/v */}}
+{{- $twemojisettingsjs := resources.Get "js/twemoji-settings.js" -}}
+{{- $twemojialljs := slice $twemojijs $twemojisettingsjs | resources.Concat "js/twemoji-all.js" -}}
+{{- $twemojialljs = $twemojialljs | minify | fingerprint "sha512" -}}
+
+{{- /*
+{{- $FontYelosanCss := resources.Get "css/yelosan-fonts.css" -}}
+{{- $FontNotoCss := resources.Get "css/font-noto.css" -}}
+{{- $FontCjkCss := resources.Get "css/font-cjk.css" -}}
+{{- $FontPilipinoCss := resources.Get "css/font-pilipino.css" -}}
+{{- $FontDiacriticsCss := resources.Get "css/font-diacritics.css" -}}
+{{- $FontHebrewCss := resources.Get "css/font-hebrew.css" -}}
+{{- $FontSymbolsCss := resources.Get "css/font-symbols.css" -}}
+{{- $FontEmojiCss := resources.Get "css/font-emoji.css" -}}
+{{- $FontDefaultsScss := resources.Get "scss/font-defaults.scss" | resources.ExecuteAsTemplate "css/fonts-defaults.css" . | toCSS -}}
+{{- $FontYelosanCss = slice $FontYelosanCss $FontNotoCss $FontCjkCss $FontPilipinoCss $FontDiacriticsCss $FontHebrewCss $FontSymbolsCss $FontEmojiCss $FontDefaultsScss | resources.Concat "css/yelosan-fonts.css" -}}
+{{- $FontYelosanCss = $FontYelosanCss | minify | fingerprint "sha512" -}}
+
+*/ -}}
+
+{{- $appletouchiconpng := resources.Get "favicon/apple-touch-icon.png" | fingerprint "sha512" -}}
+{{- /* $faviconsvg := resources.Get "favicon/favicon.svg" | fingerprint "sha512" */ -}}
+{{- $favicon32png := resources.Get "favicon/favicon-32x32.png" | fingerprint "sha512" -}}
+{{- $androidchrome192png := resources.Get "favicon/android-chrome-192x192.png" | fingerprint "sha512" -}}
+{{- $favicon16png := resources.Get "favicon/favicon-16x16.png" | fingerprint "sha512" -}}
+{{- $safaripinnedtabsvg := resources.Get "favicon/safari-pinned-tab.svg" | fingerprint "sha512" -}}
+{{- $faviconico := resources.Get "favicon/favicon.ico" | fingerprint "sha512" -}}
+{{- $browserconfigxml := resources.Get "favicon/browserconfig.xml" | resources.ExecuteAsTemplate "favicon/browserconfig.xml" . | fingerprint "sha512" -}}
+
+<link href="https://polyfill.io/v3/polyfill.min.js?version=3.111.0&features=default%2CIntl%2Ces5%2Ces6%2Ces7%2Ces2015%2Ces2016%2Ces2017%2Ces2018%2Ces2019%2Ces2020%2Ces2021%2Ces2022&flags=gated" crossorigin="anonymous" rel="preload" as="script" />
+<script src="https://polyfill.io/v3/polyfill.min.js?version=3.111.0&features=default%2CIntl%2Ces5%2Ces6%2Ces7%2Ces2015%2Ces2016%2Ces2017%2Ces2018%2Ces2019%2Ces2020%2Ces2021%2Ces2022&flags=gated" crossorigin="anonymous" type="text/javascript"></script>
+
+{{- with .Site.Params.jquerycdn }}
+  {{/* NOTE: jQuery 3.6.1 as of 2022-12-13 */}}
+  {{- $jqueryjs := resources.Get "js/jquery.js" -}} {{/* src: https://jquery.com/download/ */}}
+  {{- $jqueryjs = $jqueryjs | minify | fingerprint "sha512" -}}
+  <link href="{{ $jqueryjs.RelPermalink }}" integrity="{{ $jqueryjs.Data.Integrity }}" crossorigin="anonymous" rel="preload" as="script" />
+  <script src="{{ $jqueryjs.RelPermalink }}" integrity="{{ $jqueryjs.Data.Integrity }}" crossorigin="anonymous" type="{{ $jqueryjs.MediaType }}"></script>
+{{ end -}}
+
+{{- with .Params.math }}
+  {{/* NOTE: mathjax 3.2.2 as of 2022-12-13 */}}
+  {{- /* <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> */ -}}
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous" type="text/javascript" id="MathJax-script" async ></script>
+{{ end -}}
+
+{{- /*
+  NOTE:
+    - some themes use fontawesome5pro
+    - some themes use fontawesome-free
+    - icons missing from fontawesome are in fork-awesome
+*/ -}}
+{{- /* NOTE:
+  - fontawesome5pro 5.14.0 as of 2022-10-06
+  - fontawesome-free 6.2.0 as of 2022-10-06
+  - fontawesome-svg-core 6.2.0 as of 2022-10-06
+  - fork-awesome 1.2.0 as of 2022-10-06
+*/ -}}
+<link href="https://cdn.jsdelivr.net/npm/fontawesome5pro@5.14.0/css/all.min.css" integrity="sha256-5947S0kIn4zdgmftplLzWAbLK3D3xc7ANR9tEpJj5Ss=" crossorigin="anonymous" type="text/css" media="all" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous" type="text/css" media="all" rel="stylesheet" />
+{{- /* <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-svg-core@6.2.0/styles.css" integrity="sha256-jV0um2PJP27znK1fgW1q7JQl4wqywhvcTrwEHNw+B8w=" crossorigin="anonymous" type="text/css" media="all" rel="stylesheet" /> */ -}}
+<link href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous" type="text/css" media="all" rel="stylesheet" />
+
+{{- /* NOTE:
+  - twemoji 14.1.0 as of 2023-01-13; see: https://github.com/jdecked/twemoji
+  - cc-icons 1.2.1 as of 2022-12-13
+*/ -}}
+<script src="{{ $twemojialljs.RelPermalink }}" integrity="{{ $twemojialljs.Data.Integrity }}" crossorigin="anonymous" type="{{ $twemojialljs.MediaType }}" async ></script>
+{{- /* <link href="{{ $FontYelosanCss.RelPermalink }}" integrity="{{ $FontYelosanCss.Data.Integrity }}" crossorigin="anonymous" type="{{ $FontYelosanCss.MediaType }}" media="all" rel="stylesheet" /> */ -}}
+<link href="{{ $yookicss.RelPermalink }}" integrity="{{ $yookicss.Data.Integrity }}" crossorigin="anonymous" type="{{ $yookicss.MediaType }}" media="all" rel="stylesheet" />
+
+{{/* BGN: favicon */}}
+  <link href="{{ $appletouchiconpng.RelPermalink }}" integrity="{{ $appletouchiconpng.Data.Integrity }}" crossorigin="anonymous" type="{{ $appletouchiconpng.MediaType }}" sizes="180x180" rel="apple-touch-icon" />
+  {{- /* NOTE: disabled temporarily until we upload this file in each blog
+    <link href="{{ $faviconsvg.RelPermalink }}" integrity="{{ $faviconsvg.Data.Integrity }}" crossorigin="anonymous" type="{{ $faviconsvg.MediaType }}" rel="icon" />
+  */ -}}
+  <link href="{{ $favicon32png.RelPermalink }}" integrity="{{ $favicon32png.Data.Integrity }}" crossorigin="anonymous" type="{{ $favicon32png.MediaType }}" sizes="32x32" rel="icon" />
+  <link href="{{ $androidchrome192png.RelPermalink }}" integrity="{{ $androidchrome192png.Data.Integrity }}" crossorigin="anonymous" type="{{ $androidchrome192png.MediaType }}" sizes="192x192" rel="icon" />
+  <link href="{{ $favicon16png.RelPermalink }}" integrity="{{ $favicon16png.Data.Integrity }}" crossorigin="anonymous" type="{{ $favicon16png.MediaType }}" sizes="16x16" rel="icon" />
+  <link href="{{ $safaripinnedtabsvg.RelPermalink }}" integrity="{{ $safaripinnedtabsvg.Data.Integrity }}" crossorigin="anonymous" color="#5bbad5" type="{{ $safaripinnedtabsvg.MediaType }}" rel="mask-icon" />
+  <link href="{{ $faviconico.RelPermalink }}" integrity="{{ $faviconico.Data.Integrity }}" crossorigin="anonymous" type="{{ $faviconico.MediaType }}" rel="shortcut icon" />
+  <meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
+  <meta name="application-name" content="{{ .Site.Title }}">
+  {{ with .Site.Params.favicon_mstilecolor }}<meta name="msapplication-TileColor" content="{{ . }}" />{{ end }}
+  <meta name="msapplication-config" content="{{ $browserconfigxml.Permalink }}" integrity="{{ $browserconfigxml.Data.Integrity }}" crossorigin="anonymous" />
+  <meta name="theme-color" content="{{ .Site.Params.themeColor | default "#ffffff" }}" />
+{{/* END: favicon */}}
+
+<meta name="DC.title" content="IM YourOnly.One 🔏" />
+<meta name="geo.region" content="PH-00" />
+<meta name="geo.placename" content="Manila" />
+<meta name="geo.position" content="14.599781;120.973935" />
+<meta name="ICBM" content="14.599781, 120.973935" />
+
+{{- if templates.Exists "partials/relme.html" -}}
+  {{ partial "relme.html" . }}
+{{- end }}
+
+{{/* BGN: OneSignal Push Notification */}}
+  {{/* NOTE: Do not add crossorigin=anonymous */}}
+  {{- with and $onesignal (hugo.IsProduction) }}
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" type="text/javascript" async ></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function () {
+        OneSignal.init({
+          appId: "{{ $onesignal }}",
+        });
+      });
+    </script>
+  {{- end -}}
+{{/* END: OneSignal Push Notification */}}
+
+{{- $sitepath := (urls.Parse .Site.BaseURL).Path -}}
+{{ if or (eq $sitepath "/love/") (eq $sitepath "/snoworld/") (eq $sitepath "/techmagus/") (eq $sitepath "/yuki/") }}
+  {{- $lastfmcss := resources.Get "css/lastfm-nowplaying.css" | minify | fingerprint "sha512" -}}
+  {{- $lastfmjs := resources.Get "js/lastfm-nowplaying.js" | minify | fingerprint "sha512" -}}
+  <link href="{{ $lastfmcss.RelPermalink }}" integrity="{{ $lastfmcss.Data.Integrity }}" crossorigin="anonymous" type="{{ $lastfmcss.MediaType }}" media="all" rel="stylesheet" />
+  <script src="{{ $lastfmjs.RelPermalink }}" integrity="{{ $lastfmjs.Data.Integrity }}" crossorigin="anonymous" type="{{ $lastfmjs.MediaType }}" defer ></script>
+{{ end }}
