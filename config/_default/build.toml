@@ -1,5 +1,2 @@
-# See: https://gohugo.io/getting-started/configuration/#configure-build
-
-noJSConfigInAssets = true
-useResourceCacheWhen = "fallback"
-writeStats = false
+# See: https://gohugo.io/getting-started/configuration/#merge-configuration-from-themes
+_merge = "deep"

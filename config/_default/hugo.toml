@@ -1,45 +1,33 @@
-####### Base Config #######
-  baseURL = "https://iam.youronly.one/"             # .Site.BaseURL
-  title = "YourOnly.One"                                        # .Site.Title; IMPT for Schema.org; OpenGraph; Twitter Cards -- for RDFa, Microdata, JSON-LD
-  copyright = ""                                            # .Site.Copyright; leave empty and uncommented to override theme default; we are using our own footer
+# See: https://gohugo.io/getting-started/configuration/
+
+####### BASE CONFIG #######
+  baseURL =  "https://iam.youronly.one/"                                              # .Site.BaseURL
+  title = "YourOnly.One"                                                # .Site.Title; IMPT for Schema.org; OpenGraph; Twitter Cards; RDFa, Microdata, JSON-LD
+  copyright = ""                                            # .Site.Copyright; leave empty to override theme
   timeZone = "Etc/UTC"
 
 
-####### Site settings #######
-  paginate = 10
-  #paginatePath = "page"                                     # https://example.com/page/2
-  rssLimit = 20
-  summaryLength = 100                                       # default: 70
-
-  #### Other settings ####
-    #disqusShortname = "kolverse"                         # .Site.DisqusShortname
-    #googleAnalytics = ""                                    # .Site.GoogleAnalytics
+####### FRONTEND #######
+  #paginate = 10                                             # default: 10
+  rssLimit = 25                                             # default: -1
+  summaryLength = 240                                        # default: 70
+  titleCaseStyle = "Chicago"                                     # default: AP
 
 
-####### Backend settings #######
-  canonifyURLs = true                                       # true for our use-case
-  #disableAliases = true                                     # use this if we want to use server redirects
-  enableEmoji = false                                       # format :smile:.
-  enableGitInfo = false
-  relativeURLs = false                                      # false for our use-case; make all relative URLs relative to content root
-  refLinksNotFoundURL = "https://iam.youronly.one/"
+####### LANGUAGE #######
+  languageCode = "en-PH"
+  defaultContentLanguage = "en-ph"                             # default: en
+  hasCJKLanguage = true                                    # default: false
+  disableLanguages = ["en", "fil", "tl-tglg", "zh-hant", "zh-hans", "ja", "ko"]
 
-  ## Dev settings ##
-    publishDir = "public"
-    enableMissingTranslationPlaceholders = true
-    timeout = "30s"
 
-  ## Other settings ##
-    disableKinds = ["robotsTXT", "taxonomy", "term"]
+####### BACKEND #######
+  #canonifyURLs = true                                      # default: false; marked for removeal; true for our use-case
 
-#### LANG stuff ####
-  defaultContentLanguage = "en-ph"
-  defaultContentLanguageInSubdir = false
-  hasCJKLanguage = true
-  languageCode = "en-ph"
-
-  ## Theme settings ##
-  ## Theme settings ##
+  disableKinds = ["robotsTXT", "taxonomy", "term"]
+  #enableGitInfo = false                                     # default: false; for Git versioning
+  enableMissingTranslationPlaceholders = true              # default: false
+  #timeout = "30s"                                           # default: 30s
 
 
 #######  #######  #######  #######  #######  #######  #######  #######
