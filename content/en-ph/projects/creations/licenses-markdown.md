@@ -62,7 +62,7 @@ type = "projects"                                             # article, sitepag
   #rel = "noopener"
 +++
 
-Licenses I regularly use in my projects written in Markdown format insteead of a plaintext.
+Licenses I regularly use in my projects written in Markdown format instead of a plaintext.
 
 ---
 
