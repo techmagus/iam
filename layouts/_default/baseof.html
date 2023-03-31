@@ -74,9 +74,11 @@
         {{ .Content }}
       {{ end }}
 
-    <span style="color: #999999; font-size: 60%; display: block;" class="txt_right"><a href="https://github.com/eddiewebb/hugo-resume">Resume</a> theme by <a href="https://github.com/eddiewebb">Eddie Webbinaro</a></span>
-    {{- /* <span style="color: #999999; font-size: 60%;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span> */ -}}
-      {{ with $.GitInfo }}{{ with $.Site.Params.gitCommitPrefix }} | <span style="color: #999999; font-size: 60%;">Page content generated from commit: <a href="{{ . }}/{{ $.GitInfo.AbbreviatedHash }}" title="log: {{ $.GitInfo.Subject }}">{{ $.GitInfo.AbbreviatedHash }}</a>{{ end }}{{end}}
+      <section>
+        <span style="color: #999999; display: block;" class="txt_right"><a href="https://github.com/eddiewebb/hugo-resume">Resume</a> theme by <a href="https://github.com/eddiewebb">Eddie Webbinaro</a></span>
+        {{- /* <span style="color: #999999;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span> */ -}}
+        {{ with $.GitInfo }}{{ with $.Site.Params.gitCommitPrefix }} | <span style="color: #999999;;">Page content generated from commit: <a href="{{ . }}/{{ $.GitInfo.AbbreviatedHash }}" title="log: {{ $.GitInfo.Subject }}">{{ $.GitInfo.AbbreviatedHash }}</a>{{ end }}{{end}}
+      </section>
     </div>
     <!-- Bootstrap core JavaScript -->
     {{- /* We already have this
