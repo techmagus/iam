@@ -2,3 +2,7 @@
 _merge = "deep"
 
 home = ["HTML", "JSON"]
+page = ["HTML"]
+section = ["HTML"]
+taxonomy = ["HTML", "JSON"]
+term = ["HTML", "JSON"]
