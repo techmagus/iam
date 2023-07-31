@@ -59,7 +59,7 @@ pubtype = "Mentions"
   #rel = "noopener"
 +++
 
-- [Embracing the Magic of Kdramas: A Tribute to Enthusiastic Fans](https://www.moving-stories.net/embracing-the-magic-of-kdramas-a-tribute-to-enthusiastic-fans/)
+- [Embracing the Magic of Kdramas: A Tribute to Enthusiastic Fans](https://www.moving-stories.net/embracing-the-magic-of-kdramas-a-tribute-to-enthusiastic-fans/) (archive: [1](https://web.archive.org/web/20230731044836/https://www.moving-stories.net/embracing-the-magic-of-kdramas-a-tribute-to-enthusiastic-fans/) [2](https://archive.md/FrrXb))
 
 ---
 
