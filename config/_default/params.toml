@@ -22,17 +22,24 @@ favicon_mstilecolor = "#ffc40d"
   lastName = "Sese Cuneta"
   #phone = "PHONE"
   profileImage = "img/me_formal_02-bnw-192x192.jpg"
-  showCertifications = true
-  showAwards = true
-  showAccounts = true
-  showAdvocacy = true
-  showEducation = false
-  showExperience = true
-  showContributions = true
-  showCreations = true
-  showPublications = true
   showQr = true
+  showContact = false
+  ###
+  showCertifications = true
+  showAchievements = true
+  showSocializations = true
+  ###
+  showAdvocacy = true
   showSkills = true
+  showCreations = true
+  showContributions = true
+  showPublications = true
+  showExperience = true
+  showEducation = false
+  showBlog = false
+  ###
+  #sections = ["advocacy", "skills", "creations", "contributions", "publications", "experience"]
+  sections = ["advocacy", "creations", "contributions", "publications"]
 
   #[[handles]]
   #  link = "https://www.linkedin.com/in/youronlyone/"

@@ -1,12 +1,5 @@
 [
   {
-    "role": "Customer Support",
-    "company": "WitHelp Technology Corporation",
-    "link": "https://elex-tech.com",
-    "summary": "Customer and live chat support",
-    "range": "2023–Present"
-  },
-  {
     "role": "Community moderator",
     "company": "firefish.social",
     "link": "https://firefish.social",
@@ -27,9 +20,16 @@
     "range": "1997–Present"
   },
   {
+    "role": "Customer Support",
+    "company": "WitHelp Technology Corporation",
+    "link": "https://elex-tech.com",
+    "summary": "Customer and technical support for a mobile game.",
+    "range": "2023"
+  },
+  {
     "role": "Technical Support",
     "company": "TopData Global IT Solutions",
-    "summary": "",
+    "summary": "Technical support for a top-tier VPN service.",
     "range": "2021"
   },
   {
