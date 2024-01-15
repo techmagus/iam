@@ -47,7 +47,7 @@ toc = true
 #[[authors]]
 #  person = "yuki"
 #  #id = ""
-#  name = "ᜌᜓᜃᜒ (雪亮 | 스노 | Yuki)"
+#  name = "ᜌᜓᜃᜒ (Yuki | 사요한 | 謝雪矢（ゆきや）)"
 #  #name = "Snoworld / 雪の世界 / 스노우 월드"
 #  url = "https://im.youronly.one/snoworld/"
 #  avatar = "https://rsc.youronly.one/img/y/snoworld-square.webp"
