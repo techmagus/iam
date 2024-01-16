@@ -1,12 +1,12 @@
 module github.com/techmagus/iam
 
-go 1.20
+go 1.21
 
 require (
-  codeberg.org/yelosan/hugo-feeds main
-  codeberg.org/yelosan/hugo-shortcodes main
-  codeberg.org/yelosan/hugo-semantic-web main
-  codeberg.org/yelosan/hugo-globals main
-  codeberg.org/youronlyone/defaults main
-  github.com/techmagus/hugo-theme-resume main
+  codeberg.org/yelosan/hugo-feeds latest
+  codeberg.org/yelosan/hugo-shortcodes latest
+  codeberg.org/yelosan/hugo-semantic-web latest
+  codeberg.org/yelosan/hugo-globals latest
+  codeberg.org/youronlyone/defaults latest
+  github.com/techmagus/hugo-theme-resume latest
 )
