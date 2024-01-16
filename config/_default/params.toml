@@ -10,7 +10,7 @@ favicon_mstilecolor = "#ffc40d"
 
   description = "Official 'about me' / bio of JC John Sese Cuneta (Yuki)."
   license = ""
-  keywords = ["YourOnlyOne", "YourOnly.One", "Yuki", "ᜌᜓᜃᜒ", "스노", "雪亮", "author", "bio", "profile", "about", "about me", "cv", "resume", "resumé"] # Can be overriden per page
+  keywords = ["YourOnlyOne", "YourOnly.One", "Yahuhanan Yukiya Sese Cuneta", "Yuki", "YoHan", "Yo-Han", "ᜌᜓᜃᜒ", "사요한", "謝雪矢（ゆきや）", "스노", "Seu-No", "SeuNo", "Snow", "Yohanan", "ᜌᜓᜑᜈᜈ᜔", "ᜌᜓᜑᜈᜈ᜕", "ᜌᜑᜓᜑᜈᜈ᜔", "ᜌᜑᜓᜑᜈᜈ᜕"] # Can be overriden per page
   images = ["https://rsc.youronly.one/img/y/Yuki_flag-300h.webp", "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"]
 ### END: Structured Data ###
 
