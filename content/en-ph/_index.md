@@ -1,5 +1,5 @@
 +++
-title = "Home of Yuki (스노 / 雪亮)"
+title = "Home of ᜌᜓᜃᜒ (Yuki | 사요한 | 謝雪矢（ゆきや）)"
 
 #lastmod = 2022-11-17T12:17:44+08:00                 # last update; manually adjust to local timezone
 publishdate = 2022-11-17T12:17:44+08:00             # first publication; manually adjust to local timezone
