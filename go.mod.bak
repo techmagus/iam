@@ -1,6 +1,6 @@
 module github.com/techmagus/iam
 
-go 1.21
+go 1.22
 
 require (
   codeberg.org/yelosan/hugo-feeds main
