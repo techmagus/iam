@@ -22,7 +22,7 @@ favicon_mstilecolor = "#ffc40d"
   lastName = "Sese Cuneta"
   #phone = "PHONE"
   profileImage = "img/me_formal_02-bnw-192x192.jpg"
-  showQr = true
+  showQr = false
   showContact = false
   ###
   showCertifications = true
