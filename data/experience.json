@@ -1,9 +1,9 @@
 [
   {
     "role": "Community moderator",
-    "company": "firefish.social",
-    "link": "https://firefish.social",
-    "summary": "I assist in moderating the community of firefish.social, the flagship server of the Firefish (f. Calckey) fediverse software project.",
+    "company": "C.IM",
+    "link": "https://c.im",
+    "summary": "I am a community moderaotr of one of the largest fediverse instance/server powered by Mastodon software.",
     "range": "2023–Present"
   },
   {
@@ -18,6 +18,12 @@
     "company": "Personal",
     "summary": "I blog about technology, web development, and write reviews about topics I am interested. I launched my first website in 1998 and set up my first BBS in 1997.",
     "range": "1997–Present"
+  },
+  {
+    "role": "Community moderator",
+    "company": "firefish.social",
+    "summary": "I assisted in moderating the community of firefish.social, the flagship server of the Firefish (f. Calckey) fediverse software project.",
+    "range": "2023–2024"
   },
   {
     "role": "Customer Support",
