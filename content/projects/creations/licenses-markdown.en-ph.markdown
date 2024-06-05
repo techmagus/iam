@@ -13,7 +13,7 @@ slug = "licenses-markdown"
 translationKey = "licenses-markdown-01"
 #relCanonical = "https://iam.youronly.one/{LANG}/{POST-TITLE}-{DATE}/"
 #disqus_url = ""                                       # not used in sites by Yelosan Publishing
-#disquq_identifier = ""                                # set if date of this content is different from main translation
+#disqus_identifier = ""                                # set if date of this content is different from main translation
 
 #redirectto = ""                                       # Yelosan Publishing: used in _index.md
 #metarobots = "noindex"                                # Yelosan Publishing: used in _index.md
@@ -55,7 +55,7 @@ type = "projects"                                             # article, sitepag
 [[authors]]
   person = "yuki"
   #id = ""
-  name = "ᜌᜓᜃᜒ (Yuki | 사요한 | 謝雪矢（ゆきや）)"
+  name = "Yohan Yuki Xie"
   #name = "YOOki Chronicles / YOOkiクロニクルズ / YOOki 연대기"
   url = "https://im.youronly.one/yuki/"
   avatar = "https://rsc.youronly.one/img/y/Yuki_flag-square-300x.webp"
